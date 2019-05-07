@@ -88,7 +88,7 @@ topology_template:
           - uploads
 
     - uploads_workload:
-        type: radon.private.DecompostionTool.OpenWorkload
+        type: radon.private.DecompositionTool.OpenWorkload
         properties:
           interarrival_time_distribution:
             mean: 10 s
@@ -97,7 +97,7 @@ topology_template:
           - uploads
 
     - uploads_host_demand:
-        type: radon.private.DecompostionTool.HostDemand
+        type: radon.private.DecompositionTool.HostDemand
         properties:
           service_time_distribution:
             mean: 5 s
@@ -106,7 +106,7 @@ topology_template:
           - uploads
 
     - index_photo_host_demand:
-        type: radon.private.DecompostionTool.HostDemand
+        type: radon.private.DecompositionTool.HostDemand
         properties:
           service_time_distribution:
             mean: 3 s
@@ -115,7 +115,7 @@ topology_template:
           - index_photo
 
     - uploads_invocation_behavior:
-        type: radon.private.DecompostionTool.RequestBehavior
+        type: radon.private.DecompositionTool.RequestBehavior
         properties:
           mean_number_of_requests: 0.5
           generation_pattern: geometric

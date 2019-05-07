@@ -10,3 +10,6 @@ relationship_types:
     derived_from: tosca.relationships.ConnectsTo
     valid_target_types:
       - radon.nodes.Function
+
+  radon.relationships.HostedOn:
+    derived_from: tosca.relationships.HostedOn

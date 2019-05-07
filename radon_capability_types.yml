@@ -10,4 +10,4 @@ capability_types:
     derived_from: tosca.capabilities.Container
 
   radon.capabilities.Invocable:
-    derived_from: tosca.capabilities.EndPoint
+    derived_from: tosca.capabilities.Endpoint
