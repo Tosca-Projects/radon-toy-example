@@ -23,6 +23,7 @@ topology_template:
       type: radon.nodes.ObjectStorage
       properties:
         name: Uploads
+        maxsize: 1 GB
       requirements:
         - host:
             node: amazon_aws
